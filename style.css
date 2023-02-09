@@ -1,0 +1,50 @@
+/* #primary-container {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+#top-portion > img {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#form-primary-form-portion {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+    padding: 20px;
+    margin: 40px;
+    border-radius: 5px;
+}
+
+#order-table  {
+    border: 1px solid black;
+}
+
+#order-table-portion {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#order-lookup-portion {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#invoice-lookup-portion {
+    width: 50%;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: aliceblue;
+    border-radius: 5px;
+}

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="scripts.js"></script>
+</head>
+<body>
+    <div id="primary-container">
+        <div id="top-portion">
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/016/534/770/original/animated-candy-shop-background-scene-nice-animation-for-your-explainers-easy-to-use-just-download-it-free-video.jpg"/>
+        </div>
+        <br>
+        <div id="primary-form-portion">
+            <form id="form-primary-form-portion">
+                <label for="firstname-primary-portion">First name:</label>
+                    <input type="text" name ="firstname" id="firstname-primary-portion" maxlength="20">
+                <label for="lastname-primary-portion">Last Name:</label>
+                    <input type="text" name="lastname" id="lastname-primary-portion" maxlength="20">
+                <label for="chocolate-primary-portion">Chocolate:</label>
+                    <input type="number" name="chocolatecount" id="chocolate-primary-portion" maxlength="10">
+                <label for="caramel-primary-portion">Caramel:</label>
+                <input type="number" name="caramelcount" id="caramel-primary-portion" maxlength="10">
+                <button type="button" onclick="handleSubmit()">Order</button>
+            </form>
+        </div>
+        <br>
+        <hr>
+        <div id="order-table-portion">
+            <h1>Orders</h1>
+            <br>
+            <table id="order-table">
+            </table>
+        </div>
+        <br>
+        <hr>
+        <div id="order-lookup-portion">
+            <h1>Order Lookup</h1>
+            <br>
+            <label for="inputname-lookup-portion">Name:</label>
+                <input type="text" name="inputname" id="inputname-lookup-portion">
+            <button type="button" onclick="handleSearch()">Search</button>
+                <br>
+                    <div id="invoice-lookup-portion">
+                    </div>
+        </div>
+    </div>
+</body>
+</html>
